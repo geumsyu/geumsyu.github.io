@@ -1,7 +1,7 @@
 title: My TIL
 description: "개발 공부와 일상 기록"
 author: JaeHyeon An
-avatar: /logo.png
+avatar: /me.jpg
 email: ajh3894@naver.com
 
 plugins:
@@ -32,7 +32,7 @@ exclude:
 twitter:
   username: geumsyu
   card: summary
-logo: logo.png
+logo: me.jpg
 social:
   name: JaeHyeon An
   links:
