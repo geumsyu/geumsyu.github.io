@@ -24,7 +24,7 @@ description: >
   공부한 내용을 기록하고 공유하는 블로그입니다.
   Themed by ejjoo
 # baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://your-github-username.github.io"
+url: "https://geumsyu.github.io"
 github_username: geumsyu
 highlighter: rouge
 svg:
