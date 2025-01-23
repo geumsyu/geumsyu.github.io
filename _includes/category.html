@@ -1,5 +1,5 @@
 <article class="post">
-	<header class="post-header home">
+	<header class="post-header">
 		<div class="post-title">Category - <span id='category-name'></span></div>
 	</header>
 
@@ -7,8 +7,7 @@
 		{%- if site.posts.size > 0 -%}
 		<ul class="post-list">
 			{%- for post in site.posts -%}
-			<li class="post-list-item post-category-{{post.categories}}">
-				<!-- {%- assign date_format = site.date_format | default: "%b %-d, %Y" -%} -->
+			<li class="post-list-item post-category-{{ post.categories }}">
 				{%- assign date_format = "%Y/%m/%d" -%}
 				<span class="post-date">{{ post.date | date: date_format }}</span>
 				<a class="post-link" href="{{ post.url | relative_url }}">
@@ -22,7 +21,7 @@
 	</div>
 </article>
 
-<script src="/public/js/jquery-3.4.1.slim.min.js"></script>
+<script src="{{ '/js/jquery-3.4.1.min.js' | relative_url }}"></script>
 <script>
 	function removeCategory() {
 		if (window.location.hash) {
@@ -36,6 +35,8 @@
 					$(e).show();
 				}
 			});
+		} else {
+			$('.post-list-item').show();
 		}
 	}
 	$(window).on('hashchange', () => {
@@ -44,5 +45,4 @@
 	$(document).ready(() => {
 		removeCategory();	
 	})
-	
 </script>
