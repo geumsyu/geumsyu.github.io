@@ -13,7 +13,7 @@ defaults:
     scope:
       path: "" # empty string for all files
     values:
-      title: My TIL
+      title: Step By Step
 
 description: "매일 공부한 내용을 기록하는 블로그"
 author:
