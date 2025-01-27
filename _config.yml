@@ -7,24 +7,23 @@ highlighter: rouge
 markdown: kramdown
 disqus: dbyll
 google_analytics: dbyll
-title: dbyll
+title: My TIL
 
 defaults:
   -
     scope:
       path: "" # empty string for all files
     values:
-      title: dbyll
+      title: My TIL
 
-description: Stylish Jekyll Theme
+description: "매일 공부한 내용을 기록하는 블로그"
 author:
-  name: dbyll
-  email: dbyll@ismaildemirbilek.com
-  github: dbtek
-  twitter: dbtek
-  pinterest: asd123
+  name: AnjaeHyeon
+  email: ajh3894@gmail.com
+  github: geumsyu
+  pinterest: Ajh
   linkedin: asd123
-  bio: Your stylish, minimalist theme!
+  bio: "하루하루 열심히 공부하며 성장하는 개발자입니다!"
   email_md5: 726351295ec82e145928582f595aa3aa
 
 rss_path: feed.xml
