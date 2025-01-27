@@ -16,13 +16,12 @@
 
 <div id="contact-list" class="text-center">
 	<ul class="list-unstyled list-inline">
-		{% if site.author.github %}
+		<!-- GitHub 버튼을 본인의 깃허브 페이지로 연결 -->
 		<li>
-			<a class="btn btn-default btn-sm" href="https://github.com/{{ site.author.github }}">
+			<a class="btn btn-default btn-sm" href="https://github.com/geumsyu" target="_blank">
 				<i class="fa fa-github-alt fa-lg"></i>
 			</a>
 		</li>
-		{% endif %}
 		{% if site.author.twitter %}
 		<li>
 			<a class="btn btn-default btn-sm" href="https://twitter.com/{{ site.author.twitter }}">
@@ -30,18 +29,18 @@
 			</a>
 		</li>
 		{% endif %}
-		{% if site.author.email %}
+		<!-- 이메일 버튼을 본인의 이메일로 연결 -->
 		<li>
-			<a class="btn btn-default btn-sm" href="mailto:{{ site.author.email }}">
+			<a class="btn btn-default btn-sm" href="mailto:ajh3894@gmail.com">
 				<i class="fa fa-envelope fa-lg"></i>
 			</a>
 		</li>
-		{% endif %}
 	</ul>
 	<ul id="contact-list-secondary" class="list-unstyled list-inline">
+		<!-- Pinterest 버튼을 본인의 핀터레스트 페이지로 연결 -->
 		{% if site.author.pinterest %}
 		<li>
-			<a class="btn btn-default btn-sm" href="https://pinterest.com/{{ site.author.pinterest }}">
+			<a class="btn btn-default btn-sm" href="https://kr.pinterest.com/ajh3894/" target="_blank">
 				<i class="fa fa-pinterest fa-lg"></i>
 			</a>
 		</li>
