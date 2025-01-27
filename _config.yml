@@ -5,8 +5,7 @@ paginate_path: "page:num"
 exclude: ["README.md"] # files to exclude
 highlighter: rouge
 markdown: kramdown
-disqus: dbyll
-google_analytics: dbyll
+disqus: geumsyu
 title: My TIL
 
 defaults:
@@ -24,8 +23,7 @@ author:
   pinterest: Ajh
   linkedin: asd123
   bio: "하루하루 열심히 공부하며 성장하는 개발자입니다!"
-  email_md5: 726351295ec82e145928582f595aa3aa
-
+  
 rss_path: feed.xml
 categories_path: categories.html
 tags_path: tags.html
