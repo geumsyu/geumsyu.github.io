@@ -1,16 +1,16 @@
 @import url(//fonts.googleapis.com/css?family=Ubuntu:500&subset=latin,latin-ext);
 
 body{
-    background-color: #178CA4; /* 배경색을 #178CA4으로 변경 */
-    color: #F9F7F0; /* 기본 글자색을 #F9F7F0으로 변경 */
+    background-color: #A15C38; /* 배경색을 #A15C38으로 변경 */
+    color: #F7F1F0; /* 기본 글자색을 #F7F1F0으로 변경 */
 }
 
 .sidebar {
     position: fixed;
     top: 0px;
     padding-top: 10%;
-    background-color: #072A40; /* 사이드바 색상 #072A40으로 변경 */
-    color: #F9F7F0; /* 사이드바 글자색을 #F9F7F0으로 변경 */
+    background-color: #262220; /* 사이드바 색상 #262220으로 변경 */
+    color: #F7F1F0; /* 사이드바 글자색을 #F7F1F0으로 변경 */
 }
 
 .sidebar-header {
@@ -24,13 +24,13 @@ body{
 
 .sidebar-header .title a{
     text-decoration: none;
-    color: #F9F7F0; /* 사이드바 제목 링크 색상 #F9F7F0으로 변경 */
+    color: #F7F1F0; /* 사이드바 제목 링크 색상 #F7F1F0으로 변경 */
 }
 
 a.nav-link {
     padding-bottom: 5px;
     padding-top: 7px;
-    color: #F9F7F0; /* 글자색을 #F9F7F0으로 변경 */
+    color: #F7F1F0; /* 글자색을 #F7F1F0으로 변경 */
 }
 a.nav-link i{
     font-size: 16px;
@@ -83,7 +83,7 @@ article .share .gplus:hover {
 }
 
 .page-header {
-    color: #18B7BE; /* 포스트 제목 색상 #18B7BE로 변경 */
+    color: #C3A6A0; /* 포스트 제목 색상 #C3A6A0으로 변경 */
     text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);
 }
 
@@ -112,8 +112,8 @@ article {
     padding: 0 5% 0;
 }
 
-article.home div a, article.home pre a { color: #F9F7F0; } /* 글자색을 #F9F7F0으로 변경 */
-article.home div a:hover, article.home pre a:hover { color: #F9F7F0; text-decoration: none; }
+article.home div a, article.home pre a { color: #F7F1F0; } /* 글자색을 #F7F1F0으로 변경 */
+article.home div a:hover, article.home pre a:hover { color: #F7F1F0; text-decoration: none; }
 article img { max-width: 100%; }
 
 h1,h2,h3,h4,h5,h6 { font-family: 'Ubuntu', sans-serif; }
@@ -124,14 +124,14 @@ article.home h4,
 article.home h5,
 article.home h6 {
     font-family: 'Ubuntu', sans-serif;
-    color: #18B7BE; /* 포스트 제목 색상 #18B7BE로 변경 */
+    color: #C3A6A0; /* 포스트 제목 색상 #C3A6A0으로 변경 */
 }
 
 article.home h1 a,
 article.home h2 a,
 article.home h3 a,
 article.home h4 a {
-    color: #18B7BE; /* 포스트 제목 링크 색상 #18B7BE로 변경 */
+    color: #C3A6A0; /* 포스트 제목 링크 색상 #C3A6A0으로 변경 */
 }
 article.home h1 a:hover,
 article.home h2 a:hover,
@@ -189,4 +189,3 @@ footer {
 ul.dropdown-menu>li>a>i.fa {
     width: 1.3em;
 }
-
