@@ -1,16 +1,16 @@
 @import url(//fonts.googleapis.com/css?family=Ubuntu:500&subset=latin,latin-ext);
 
 body{
-    background-color: #A15C38; /* 전체 배경색은 #A15C38 유지 */
-    color: #F7F1F0; /* 기본 글자색을 #F7F1F0으로 변경 */
+    background-color: #121212; /* 전체 배경색 #121212 */
+    color: #B3B2B3; /* 기본 글자색 #B3B2B3 */
 }
 
 .sidebar {
     position: fixed;
     top: 0px;
     padding-top: 10%;
-    background-color: #262220; /* 사이드바 색상 #262220 */
-    color: #F7F1F0; /* 사이드바 글자색을 #F7F1F0으로 변경 */
+    background-color: #525252; /* 사이드바 색상 #525252 */
+    color: #B3B2B3; /* 사이드바 글자색 #B3B2B3 */
 }
 
 .sidebar-header {
@@ -24,18 +24,18 @@ body{
 
 .sidebar-header .title a{
     text-decoration: none;
-    color: #F7F1F0; /* 사이드바 제목 링크 색상 #F7F1F0으로 변경 */
+    color: #B3B2B3; /* 사이드바 제목 링크 색상 #B3B2B3 */
 }
 
 a.nav-link {
     padding-bottom: 5px;
     padding-top: 7px;
-    color: #F7F1F0; /* 글자색을 #F7F1F0으로 변경 */
+    color: #B3B2B3; /* 글자색을 #B3B2B3으로 변경 */
 }
 a.nav-link i{
     font-size: 16px;
 }
-a.nav-link:hover { color: #aaa; }
+a.nav-link:hover { color: #563E5C; } /* 하버 색상 #563E5C */
 
 #bio {
     font-family: "Courier New", Courier, monospace;
@@ -83,8 +83,8 @@ article .share .gplus:hover {
 }
 
 .page-header {
-    color: #F7F1F0; /* 포스트 제목 색상 #F7F1F0으로 변경 */
-    background-color: #262220; /* 포스트 제목 배경색 #262220 */
+    color: #040303; /* 포스트 제목 색상 #040303 */
+    background-color: #525252; /* 포스트 제목 배경색 #525252 */
     text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);
 }
 
@@ -97,7 +97,7 @@ article .share .gplus:hover {
 article{
     margin-bottom: 40px;
     /* 포스트 배경색은 변경하지 않음 */
-    color: #F7F1F0; /* 글자색을 #F7F1F0으로 변경 */
+    color: #B3B2B3; /* 글자색을 #B3B2B3으로 변경 */
 }
 
 .article_body{
@@ -115,8 +115,8 @@ article {
     padding: 0 5% 0;
 }
 
-article.home div a, article.home pre a { color: #F7F1F0; } /* 글자색을 #F7F1F0으로 변경 */
-article.home div a:hover, article.home pre a:hover { color: #F7F1F0; text-decoration: none; }
+article.home div a, article.home pre a { color: #B3B2B3; } /* 글자색을 #B3B2B3으로 변경 */
+article.home div a:hover, article.home pre a:hover { color: #B3B2B3; text-decoration: none; }
 article img { max-width: 100%; }
 
 h1,h2,h3,h4,h5,h6 { font-family: 'Ubuntu', sans-serif; }
@@ -127,20 +127,20 @@ article.home h4,
 article.home h5,
 article.home h6 {
     font-family: 'Ubuntu', sans-serif;
-    color: #F7F1F0; /* 포스트 제목 색상 #F7F1F0으로 변경 */
+    color: #040303; /* 포스트 제목 색상 #040303 */
 }
 
 article.home h1 a,
 article.home h2 a,
 article.home h3 a,
 article.home h4 a {
-    color: #F7F1F0; /* 포스트 제목 링크 색상 #F7F1F0으로 변경 */
+    color: #040303; /* 포스트 제목 링크 색상 #040303 */
 }
 article.home h1 a:hover,
 article.home h2 a:hover,
 article.home h3 a:hover,
 article.home h4 a:hover {
-    color: #e74c3c; /* hover 색상은 빨간색으로 유지 */
+    color: #563E5C; /* hover 색상은 #563E5C */
 }
 
 .author .author-image {
