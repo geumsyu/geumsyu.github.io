@@ -83,7 +83,7 @@ article .share .gplus:hover {
 }
 
 .page-header {
-    color: #040303; /* 포스트 제목 색상 #040303 */
+    color: #B3B3B3; /* 포스트 제목 색상 #040303 */
     background-color: #525252; /* 포스트 제목 배경색 #525252 */
     text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);
 }
@@ -140,7 +140,7 @@ article.home h1 a:hover,
 article.home h2 a:hover,
 article.home h3 a:hover,
 article.home h4 a:hover {
-    color: #563E5C; /* hover 색상은 #563E5C */
+    color: #A4A4AA; /* hover 색상은 #563E5C */
 }
 
 .author .author-image {
