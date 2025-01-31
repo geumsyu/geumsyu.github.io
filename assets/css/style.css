@@ -9,7 +9,7 @@ body{
     position: fixed;
     top: 0px;
     padding-top: 10%;
-    background-color: #525252; /* 사이드바 색상 #525252 */
+    background-color: #040303; /* 사이드바 색상 #040303 */
     color: #B3B2B3; /* 사이드바 글자색 #B3B2B3 */
 }
 
@@ -35,7 +35,7 @@ a.nav-link {
 a.nav-link i{
     font-size: 16px;
 }
-a.nav-link:hover { color: #563E5C; } /* 하버 색상 #563E5C */
+a.nav-link:hover { color: #A4A4AA; } /* 하버 색상 #A4A4AA */
 
 #bio {
     font-family: "Courier New", Courier, monospace;
