@@ -96,7 +96,7 @@ article .share .gplus:hover {
 
 article{
     margin-bottom: 40px;
-    background-color: #262220; /* 포스트 배경색 #262220으로 변경 */
+    /* 포스트 배경색은 변경하지 않음 */
     color: #F7F1F0; /* 글자색을 #F7F1F0으로 변경 */
 }
 
