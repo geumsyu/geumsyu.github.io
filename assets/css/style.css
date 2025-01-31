@@ -1,16 +1,16 @@
 @import url(//fonts.googleapis.com/css?family=Ubuntu:500&subset=latin,latin-ext);
 
 body{
-    background-color: #6C7A89; /* 배경색을 #6C7A89로 변경 */
-    color: #E0E7E9; /* 기본 글자색을 #E0E7E9로 변경 */
+    background-color: #928490; /* 배경색을 #928490으로 변경 */
+    color: #F3E8EB; /* 기본 글자색을 #F3E8EB로 변경 */
 }
 
 .sidebar {
     position: fixed;
     top: 0px;
     padding-top: 10%;
-    background-color: #354649; /* 사이드바 색상 #354649로 변경 */
-    color: #E0E7E9; /* 사이드바 글자색을 #E0E7E9로 변경 */
+    background-color: #433E49; /* 사이드바 색상 #433E49로 변경 */
+    color: #F3E8EB; /* 사이드바 글자색을 #F3E8EB로 변경 */
 }
 
 .sidebar-header {
@@ -24,13 +24,13 @@ body{
 
 .sidebar-header .title a{
     text-decoration: none;
-    color: #E0E7E9; /* 사이드바 제목 링크 색상 #E0E7E9로 변경 */
+    color: #F3E8EB; /* 사이드바 제목 링크 색상 #F3E8EB로 변경 */
 }
 
 a.nav-link {
     padding-bottom: 5px;
     padding-top: 7px;
-    color: #E0E7E9; /* 글자색을 #E0E7E9로 변경 */
+    color: #F3E8EB; /* 글자색을 #F3E8EB로 변경 */
 }
 a.nav-link i{
     font-size: 16px;
@@ -83,7 +83,7 @@ article .share .gplus:hover {
 }
 
 .page-header {
-    color: #A3C6C4; /* 포스트 제목 색상 #A3C6C4로 변경 */
+    color: #DBC1AD; /* 포스트 제목 색상 #DBC1AD로 변경 */
     text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);
 }
 
@@ -112,8 +112,8 @@ article {
     padding: 0 5% 0;
 }
 
-article.home div a, article.home pre a { color: #E0E7E9; } /* 글자색을 #E0E7E9로 변경 */
-article.home div a:hover, article.home pre a:hover { color: #E0E7E9; text-decoration: none; }
+article.home div a, article.home pre a { color: #F3E8EB; } /* 글자색을 #F3E8EB로 변경 */
+article.home div a:hover, article.home pre a:hover { color: #F3E8EB; text-decoration: none; }
 article img { max-width: 100%; }
 
 h1,h2,h3,h4,h5,h6 { font-family: 'Ubuntu', sans-serif; }
@@ -124,14 +124,14 @@ article.home h4,
 article.home h5,
 article.home h6 {
     font-family: 'Ubuntu', sans-serif;
-    color: #A3C6C4; /* 포스트 제목 색상 #A3C6C4로 변경 */
+    color: #DBC1AD; /* 포스트 제목 색상 #DBC1AD로 변경 */
 }
 
 article.home h1 a,
 article.home h2 a,
 article.home h3 a,
 article.home h4 a {
-    color: #A3C6C4; /* 포스트 제목 링크 색상 #A3C6C4로 변경 */
+    color: #DBC1AD; /* 포스트 제목 링크 색상 #DBC1AD로 변경 */
 }
 article.home h1 a:hover,
 article.home h2 a:hover,
